@@ -3027,6 +3027,10 @@ blockquote {
     font-size: 110px;
   }
 
+  html[lang="vi"] h1 {
+    font-size: 100px;
+  }
+
   h5, h6 {
     color: var(--white);
   }
