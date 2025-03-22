@@ -97,8 +97,29 @@
                             <p class="contact-text">Deltora, LLC</p>
                         </div>
                         <div class="contact-item">
-                            <img src="assets/images/clock.svg" loading="lazy" alt="Location Icon" class="contact-icon">
-                            <p class="contact-text" id="current-time">13:02 (UTC +07:00)</p>
+                            <img src="assets/images/clock.svg" loading="lazy" alt="Time Icon" class="contact-icon">
+                            <p class="contact-text" id="current-time">
+                                <script>
+                                    function updateTime() {
+                                        const now = new Date();
+                                        const vietnamTime = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Ho_Chi_Minh' }));
+                                        const hours = vietnamTime.getHours().toString().padStart(2, '0');
+                                        const minutes = vietnamTime.getMinutes().toString().padStart(2, '0');
+                                        const timeString = `${hours}:${minutes} (UTC +07:00)`;
+                                        
+                                        const timeElement = document.getElementById('current-time');
+                                        if (timeElement) {
+                                            timeElement.textContent = timeString;
+                                        }
+                                    }
+
+                                    // Update time immediately
+                                    updateTime();
+                                    
+                                    // Update time every minute
+                                    setInterval(updateTime, 60000);
+                                </script>
+                            </p>
                         </div>
                         <div class="contact-item">
                             <img src="assets/images/location.svg" loading="lazy" alt="Location Icon" class="contact-icon">
