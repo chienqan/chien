@@ -3370,14 +3370,6 @@ blockquote {
     margin-bottom: 70px;
   }
 
-  .skills-section .section-title {
-    font-size: 56px;
-  }
-
-  .blog-section .section-title {
-    font-size: 48px;
-  }
-
   .tool-post-heading-wrap {
     margin-bottom: 20px;
   }
@@ -3419,6 +3411,14 @@ blockquote {
 }
 
 @media screen and (max-width: 479px) {
+  html[lang="vi"] h1 {
+    font-size: 59px;
+  }
+
+  .blog-section h2 {
+    font-size: 55px;
+  }
+
   .profile-image {
     width: 100%;
     max-height: 100%;
@@ -3485,6 +3485,67 @@ blockquote {
   .colors-grid {
     grid-template-columns: 1fr;
   }
+}
+
+@media screen and (max-width: 416px) {
+  html[lang="vi"] h1 {
+    font-size: 51px;
+  }
+
+  html[lang="vi"] h2 {
+    font-size: 54px;
+  }
+
+  .hero-number-wrap:nth-last-child(2) {
+    display: none;
+  }
+
+  h2 {
+    font-size: 52px;
+  }
+
+  .blog-section h2 {
+    font-size: 46px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  html[lang="vi"] h1 {
+    font-size: 48px;
+  }
+
+  html[lang="vi"] h2 {
+    font-size: 51px;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  html[lang="vi"] h1 {
+    font-size: 46px;
+  }
+
+  html[lang="vi"] h2 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+
+  .blog-section h2 {
+    font-size: 42px;
+  }
+
+  .project-card {
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .project-card .project-card-image {
+    margin-bottom: 1.5rem;
+  }
+  
 }
 
 #w-node-ea09f54b-6c86-cb74-7f08-6b7dab0d5da4-4672603f {
