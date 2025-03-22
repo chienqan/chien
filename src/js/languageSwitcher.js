@@ -1,4 +1,6 @@
 import i18next from '../i18n/index.js';
+import usaFlag from '../../assets/images/usa.png';
+import vietnamFlag from '../../assets/images/vietnam.png';
 
 // Initialize translations
 document.addEventListener('DOMContentLoaded', () => {
@@ -27,10 +29,10 @@ function updateLanguageButton(lang) {
     const languageText = document.querySelector('#language .nav-link-label');
     
     if (lang === 'vi') {
-        languageIcon.src = 'assets/images/vietnam.png';
+        languageIcon.src = vietnamFlag;
         languageText.textContent = 'Tiếng Việt';
     } else {
-        languageIcon.src = 'assets/images/usa.png';
+        languageIcon.src = usaFlag;
         languageText.textContent = 'English';
     }
 }
