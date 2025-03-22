@@ -787,7 +787,37 @@ textarea.w-input, textarea.w-select {
   display: none !important;
 }
 
+.language-switcher {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  z-index: 1000;
+  display: flex;
+  gap: 10px;
+}
+.language-btn {
+  padding: 5px 10px;
+  border: 1px solid #FF6B00;
+  background: transparent;
+  color: #FF6B00;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+.language-btn.active {
+  background: #FF6B00;
+  color: white;
+}
+.language-btn:hover {
+  background: #FF6B00;
+  color: white;
+}
+
 @media screen and (max-width: 991px) {
+  .language-switcher {
+    display: none !important;
+  }
+  
   .w-container {
     max-width: 728px;
   }
@@ -2194,6 +2224,7 @@ blockquote {
 
 .md-paragraph {
   font-size: 16px;
+  font-weight: 300;
 }
 
 .main {
@@ -2293,6 +2324,7 @@ blockquote {
 .hero-paragraph-wrap {
   max-width: 480px;
   margin-bottom: 60px;
+  font-weight: 300;
 }
 
 .hero-numbers-wrap {
@@ -2512,6 +2544,7 @@ blockquote {
 
 .sm-paragraph {
   font-size: 12px;
+  font-weight: 300;
 }
 
 .tool-card-heading {
@@ -2664,6 +2697,7 @@ blockquote {
 .navbar {
   background-color: #ddd0;
   margin-top: 30px;
+  z-index: 0;
 }
 
 .nav-link {
@@ -2879,7 +2913,7 @@ blockquote {
 
 .hero-heading-wrap .hero-heading {
   letter-spacing: -.04em;
-  font-size: 94px;
+  font-size: 110px;
 }
 
 .hero-heading-wrap .hero-heading-span {
@@ -3540,4 +3574,11 @@ blockquote {
 
 #w-node-ea09f54b-6c86-cb74-7f08-6b7dab0d5da4-4672603f {
   grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+.hero-number-label {
+    white-space: pre-line;
+    text-align: left;
+    margin: 0;
+    line-height: 1.2;
 }

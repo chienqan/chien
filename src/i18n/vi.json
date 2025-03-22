@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "journey": "Hành trình",
+    "projects": "Dự án",
+    "stack": "Công nghệ",
+    "thoughts": "Suy nghĩ"
+  },
+  "profile": {
+    "name": "Nguyễn Chiến",
+    "bio": "\"Kiến tạo tương lai số\"",
+    "getInTouch": "Liên hệ"
+  },
+  "hero": {
+    "title": "SÁNG LẬP",
+    "subtitle": "STARTUP",
+    "intro": "Từ Kỹ sư Phần mềm đến Doanh nhân, tôi được thúc đẩy bởi niềm đam mê tạo ra sản phẩm mang lại giá trị cho xã hội và thúc đẩy sự tiến bộ quốc gia.",
+    "bytek": "Vào ngày 28 tháng 10 năm 2022, tôi thành lập Bytek, LLC—một công ty chuyên phát triển các sản phẩm công nghệ sáng tạo.",
+    "bytekUS": "Vào ngày 12 tháng 3 năm 2025, tôi thành lập Bytek, LLC tại Delaware, Hoa Kỳ, đánh dấu một cột mốc quan trọng trong hành trình khởi nghiệp của tôi.",
+    "deltora": "Vào ngày 20 tháng 3 năm 2025, tôi thành lập Deltora, một công ty tiên phong trong xử lý video và hình ảnh bằng AI. Thông qua công nghệ AI tiên tiến, chúng tôi đang cách mạng hóa tương lai của sáng tạo nội dung.",
+    "stats": {
+      "companies": "CÔNG TY\nĐÃ THÀNH LẬP",
+      "years": "NĂM\nKINH NGHIỆM",
+      "products": "SẢN PHẨM\nĐÃ RA MẮT"
+    }
+  },
+  "sections": {
+    "journey": {
+      "title": "HÀNH TRÌNH",
+      "subtitle": "SÁNG LẬP"
+    },
+    "projects": {
+      "title": "DỰ ÁN",
+      "subtitle": "NỔI BẬT"
+    },
+    "stack": {
+      "title": "CÔNG NGHỆ",
+      "subtitle": "YÊU THÍCH"
+    },
+    "thoughts": {
+      "title": "GÓC NHÌN &",
+      "subtitle": "CHIA SẺ"
+    }
+  },
+  "experience": {
+    "deltora": {
+      "heading": "Deltora, LLC",
+      "description": "Thành lập và lãnh đạo một công ty tập trung vào giải pháp xử lý video và hình ảnh bằng AI, phát triển công nghệ tiên tiến cho người sáng tạo nội dung và doanh nghiệp.",
+      "date": "Tháng 3 năm 2025 - Hiện tại"
+    },
+    "bytek": {
+      "heading": "Bytek, LLC",
+      "description": "Thành lập và lãnh đạo một công ty công nghệ phát triển các sản phẩm sáng tạo mang lại giá trị cho xã hội và thúc đẩy sự tiến bộ của quốc gia.",
+      "date": "Tháng 10 năm 2022 - Hiện tại"
+    },
+    "rmit": {
+      "heading": "Đại học RMIT",
+      "description": "Xây dựng giải pháp tự động hóa cho mạng xã hội, truyền hình và kênh phim trong khi theo học bằng Cử nhân Công nghệ Thông tin.",
+      "date": "2018 - 2022"
+    }
+  },
+  "project": {
+    "flowdraw": "Một trình soạn thảo sơ đồ hiện đại với giao diện kéo thả và tính năng cộng tác thời gian thực để tạo sơ đồ và biểu đồ chuyên nghiệp.",
+    "ai_background_remover": "Công cụ AI nâng cao để xóa nền khỏi cả hình ảnh và video, mang lại kết quả chất lượng chuyên nghiệp trong vài giây.",
+    "ai_content_generator": "Công cụ AI chuyển đổi văn bản thành phương tiện truyền thông, tạo ra hình ảnh và video chất lượng cao từ mô tả ngôn ngữ tự nhiên."
+  },
+  "stack": {
+    "nextjs": "Framework React",
+    "adonisjs": "Framework Node.js",
+    "redis": "Cơ sở dữ liệu trong bộ nhớ",
+    "docker": "Nền tảng Container",
+    "mongodb": "Cơ sở dữ liệu NoSQL",
+    "aws": "Nền tảng Điện toán đám mây"
+  },
+  "blog": {
+    "building_global_companies": {
+      "heading": "Xây Dựng Công Ty Toàn Cầu Từ Việt Nam",
+      "summary": "Những hiểu biết về việc mở rộng công ty công nghệ ra quốc tế và cơ hội cho doanh nhân Việt Nam trên thị trường toàn cầu. Khám phá cách các startup địa phương có thể tận dụng lợi thế độc đáo của Việt Nam trong khi vượt qua thách thức để cạnh tranh trên sân chơi thế giới.",
+      "date": "Tháng 3 năm 2025"
+    },
+    "future_of_ai": {
+      "heading": "Tương Lai Của AI Trong Sáng Tạo Nội Dung",
+      "summary": "Khám phá cách AI đang cách mạng hóa xử lý video và hình ảnh thông qua chỉnh sửa tự động và chuyển đổi phong cách, trao quyền cho người sáng tạo theo những cách mới.",
+      "date": "Tháng 2 năm 2025"
+    },
+    "from_engineer_to_entrepreneur": {
+      "heading": "Từ Kỹ Sư Đến Doanh Nhân",
+      "summary": "Hành trình chuyển đổi từ kỹ sư phần mềm thành người sáng lập startup, chia sẻ những hiểu biết quan trọng về lãnh đạo kỹ thuật và mở rộng công ty giai đoạn đầu. Phản ánh về những thách thức và thành công trên đường đi.",
+      "date": "Tháng 1 năm 2025"
+    }
+  },
+  "contact": {
+    "location": "Thành phố Hồ Chí Minh, Việt Nam",
+    "email": "hello@bytek.org"
+  }
+} 

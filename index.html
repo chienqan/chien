@@ -22,9 +22,17 @@
     <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
     <link href="assets/images/favicon.png" rel="shortcut icon" type="image/x-icon">
     <link href="assets/images/apple-touch-icon.png" rel="apple-touch-icon">
+    <style>
+        
+    </style>
 </head>
 
 <body>
+    <div class="language-switcher">
+        <button class="language-btn active" data-lang="en">EN</button>
+        <button class="language-btn" data-lang="vi">VI</button>
+    </div>
+
     <div class="navbar w-nav">
         <div class="container-large center w-container">
             <div class="nav-menu-links-wrap">
@@ -32,31 +40,31 @@
                     <a href="#home" aria-current="page" class="nav-link w-inline-block w--current">
                         <div class="nav-link-content-wrap">
                             <img src="assets/images/home.svg" loading="lazy" alt="Home Icon" class="nav-link-icon">
-                            <p class="nav-link-label sm-paragraph">Home</p>
+                            <p class="nav-link-label sm-paragraph" data-i18n="nav.home">Home</p>
                         </div>
                     </a>
                     <a href="#journey" class="nav-link w-inline-block">
                         <div class="nav-link-content-wrap">
                             <img src="assets/images/briefcase.svg" loading="lazy" alt="Briefcase Icon" class="nav-link-icon">
-                            <p class="nav-link-label sm-paragraph">journey</p>
+                            <p class="nav-link-label sm-paragraph" data-i18n="nav.journey">journey</p>
                         </div>
                     </a>
                     <a href="#projects" class="nav-link w-inline-block">
                         <div class="nav-link-content-wrap">
                             <img src="assets/images/folder.svg" loading="lazy" alt="Folder Icon" class="nav-link-icon">
-                            <p class="nav-link-label sm-paragraph">Projects</p>
+                            <p class="nav-link-label sm-paragraph" data-i18n="nav.projects">Projects</p>
                         </div>
                     </a>
                     <a href="#stack" class="nav-link w-inline-block">
                         <div class="nav-link-content-wrap">
                             <img src="assets/images/tool.svg" loading="lazy" alt="Tool Icon" class="nav-link-icon">
-                            <p class="nav-link-label sm-paragraph">Stack</p>
+                            <p class="nav-link-label sm-paragraph" data-i18n="nav.stack">Stack</p>
                         </div>
                     </a>
                     <a href="#thoughts" class="nav-link w-inline-block">
                         <div class="nav-link-content-wrap">
                             <img src="assets/images/edit.svg" loading="lazy" alt="Pen Icon" class="nav-link-icon">
-                            <p class="nav-link-label sm-paragraph">Thoughts</p>
+                            <p class="nav-link-label sm-paragraph" data-i18n="nav.thoughts">Thoughts</p>
                         </div>
                     </a>
                 </div>
@@ -71,8 +79,8 @@
                     <img src="assets/images/download.svg" loading="lazy" alt="Line Illustration" class="line-illustration">
                     <img src="assets/images/chien-grey.png" loading="lazy" width="Auto" alt="Profile Image" class="profile-image">
                     <div class="profile-bio-container">
-                        <p class="profile-name">Chien Nguyen</p>
-                        <p class="profile-bio">"Pioneering digital futures"</p>
+                        <p class="profile-name" data-i18n="profile.name">Chien Nguyen</p>
+                        <p class="profile-bio" data-i18n="profile.bio">"Pioneering digital futures"</p>
                     </div>
                     <div class="contact-info">
                         <div class="contact-item">
@@ -95,7 +103,7 @@
                     <div class="hero-skills-card-button-wrap">
                         <button onclick="window.location.href='mailto:hello@bytek.org'" class="hero-skills-card-button black-border">
                             <img src="assets/images/messages-1.svg" loading="lazy" alt="Arrow Icon" class="hero-skills-button-icon">
-                            <p class="contact-text">Get In Touch</p>
+                            <p class="contact-text" data-i18n="profile.getInTouch">Get In Touch</p>
                         </button>
                     </div>
                 </div>
@@ -104,43 +112,38 @@
                     <section class="hero-section section-animation" id="home">
                         <div class="hero-heading-wrap">
                             <h1 class="hero-heading">
-                                STARTUP
-                                <span class="hero-heading-span">FOUNDER</span>
+                                <span data-i18n="hero.title">STARTUP</span>
+                                <span class="hero-heading-span" data-i18n="hero.subtitle">FOUNDER</span>
                             </h1>
                         </div>
                         <div class="hero-paragraph-wrap">
-                            <p class="paragraph">
-                                From Software Engineer to Entrepreneur, I'm driven by a passion for creating solutions and uplifting others.
-                            </p>
-                            <p class="paragraph">
-                                On October 28, 2022, I founded Bytek, LLC—a company dedicated to developing innovative tech products.
-                            </p>
-                            <p class="paragraph">
-                                On March 12, 2025, I established Bytek, LLC in Delaware, United States, marking a significant milestone in my entrepreneurial journey.
-                            </p>
-                            <p class="paragraph">
-                                On March 20, 2025, I founded Deltora, a pioneering AI-powered video and image processing company. Through cutting-edge AI technology, we are revolutionizing the future of content creation.
-                            </p>
+                            <p class="paragraph" data-i18n="hero.intro">From Software Engineer to Entrepreneur, I'm driven by a passion for creating solutions and uplifting others.</p>
+                            <p class="paragraph" data-i18n="hero.bytek">On October 28, 2022, I founded Bytek, LLC—a company dedicated to developing innovative tech products.</p>
+                            <p class="paragraph" data-i18n="hero.bytekUS">On March 12, 2025, I established Bytek, LLC in Delaware, United States, marking a significant milestone in my entrepreneurial journey.</p>
+                            <p class="paragraph" data-i18n="hero.deltora">On March 20, 2025, I founded Deltora, a pioneering AI-powered video and image processing company. Through cutting-edge AI technology, we are revolutionizing the future of content creation.</p>
                         </div>
                         <div class="hero-numbers-wrap">
                             <div class="hero-number-wrap">
                                 <h2 class="hero-number">+2</h2>
-                                <p class="hero-number-label md-paragraph">COMPANIES <br>FOUNDED</p>
+                                <p class="hero-number-label md-paragraph" data-i18n="hero.stats.companies">COMPANIES FOUNDED</p>
                             </div>
                             <div class="hero-number-wrap">
                                 <h2 class="hero-number">+3</h2>
-                                <p class="hero-number-label md-paragraph">YEARS IN <br>BUSINESS</p>
+                                <p class="hero-number-label md-paragraph" data-i18n="hero.stats.years">YEARS IN BUSINESS</p>
                             </div>
                             <div class="hero-number-wrap">
                                 <h2 class="hero-number">+5</h2>
-                                <p class="hero-number-label md-paragraph">PRODUCTS <br>LAUNCHED</p>
+                                <p class="hero-number-label md-paragraph" data-i18n="hero.stats.products">PRODUCTS LAUNCHED</p>
                             </div>
                         </div>
                     </section>
 
                     <section class="section experience-section" id="journey">
                         <div class="section-heading-wrap">
-                            <h2 class="section-title">FOUNDER'S <br/><span class="section-subtitle">JOURNEY</span><br></h2>
+                            <h2 class="section-title">
+                                <span data-i18n="sections.journey.title">FOUNDER'S</span>
+                                <br/><span class="section-subtitle" data-i18n="sections.journey.subtitle">JOURNEY</span>
+                            </h2>
                         </div>
                         <div class="collection-list-wrapper w-dyn-list">
                             <div role="list" class="experiences-collection-list w-dyn-items">
@@ -148,9 +151,9 @@
                                     <a href="https://deltora.ai" class="experience-card-link w-inline-block">
                                         <div class="experience-card">
                                             <div class="experience-card-content-wrap">
-                                                <h3 class="experience-card-heading">Deltora, LLC</h3>
-                                                <p class="experience-card-description md-paragraph">Founded and leading a company focused on AI-powered video and image processing solutions, developing cutting-edge technology for content creators and businesses.</p>
-                                                <p class="experience-card-date small-paragraph">March 2025 - Present</p>
+                                                <h3 class="experience-card-heading" data-i18n="experience.deltora.heading">Deltora, LLC</h3>
+                                                <p class="experience-card-description md-paragraph" data-i18n="experience.deltora.description">Founded and leading a company focused on AI-powered video and image processing solutions, developing cutting-edge technology for content creators and businesses.</p>
+                                                <p class="experience-card-date small-paragraph" data-i18n="experience.deltora.date">March 2025 - Present</p>
                                             </div>
                                             <img src="assets/images/arrow.svg" loading="lazy" alt="Arrow Icon" class="experience-card-icon">
                                         </div>
@@ -160,9 +163,9 @@
                                     <a href="https://bytek.org" class="experience-card-link w-inline-block">
                                         <div class="experience-card">
                                             <div class="experience-card-content-wrap">
-                                                <h3 class="experience-card-heading">Bytek, LLC</h3>
-                                                <p class="experience-card-description md-paragraph">Founded and led a technology company developing innovative products that add value to society and drive national progress.</p>
-                                                <p class="experience-card-date small-paragraph">2022 - Present</p>
+                                                <h3 class="experience-card-heading" data-i18n="experience.bytek.heading">Bytek, LLC</h3>
+                                                <p class="experience-card-description md-paragraph" data-i18n="experience.bytek.description">Founded and led a technology company developing innovative products that add value to society and drive national progress.</p>
+                                                <p class="experience-card-date small-paragraph" data-i18n="experience.bytek.date">2022 - Present</p>
                                             </div>
                                             <img src="assets/images/arrow.svg" loading="lazy" alt="Arrow Icon" class="experience-card-icon">
                                         </div>
@@ -172,9 +175,9 @@
                                     <a href="https://rmit.edu.vn" class="experience-card-link w-inline-block">
                                         <div class="experience-card">
                                             <div class="experience-card-content-wrap">
-                                                <h3 class="experience-card-heading">RMIT University</h3>
-                                                <p class="experience-card-description md-paragraph">Built automation solutions for social networks, television, and film channels while pursuing a Bachelor's degree in Information Technology.</p>
-                                                <p class="experience-card-date small-paragraph">2018 - 2022</p>
+                                                <h3 class="experience-card-heading" data-i18n="experience.rmit.heading">RMIT University</h3>
+                                                <p class="experience-card-description md-paragraph" data-i18n="experience.rmit.description">Built automation solutions for social networks, television, and film channels while pursuing a Bachelor's degree in Information Technology.</p>
+                                                <p class="experience-card-date small-paragraph" data-i18n="experience.rmit.date">2018 - 2022</p>
                                             </div>
                                             <img src="assets/images/arrow.svg" loading="lazy" alt="Arrow Icon" class="experience-card-icon">
                                         </div>
@@ -186,7 +189,10 @@
 
                     <section class="section projects-section" id="projects">
                         <div class="section-heading-wrap">
-                            <h2 class="section-title">PROJECTS <br/><span class="section-subtitle">SPOTLIGHT</span><br></h2>
+                            <h2 class="section-title">
+                                <span data-i18n="sections.projects.title">PROJECTS</span>
+                                <br/><span class="section-subtitle" data-i18n="sections.projects.subtitle">SPOTLIGHT</span>
+                            </h2>
                         </div>
                         <div class="collection-list-wrapper w-dyn-list">
                             <div role="list" class="projects-collection-list w-dyn-items">
@@ -196,7 +202,7 @@
                                             <img src="assets/images/flowdraw.png" loading="lazy" alt="FlowDraw - Modern Diagram Editor" class="project-card-image">
                                             <div class="project-card-content-wrap">
                                                 <h3 class="project-card-heading">FlowDraw</h3>
-                                                <p class="project-card-description md-paragraph">A modern diagram editor with drag-and-drop interface and real-time collaboration features for creating professional flowcharts and diagrams.</p>
+                                                <p class="project-card-description md-paragraph" data-i18n="project.flowdraw">A modern diagram editor with drag-and-drop interface and real-time collaboration features for creating professional flowcharts and diagrams.</p>
                                             </div>
                                             <img src="assets/images/arrow.svg" loading="lazy" alt="Arrow Icon" class="project-card-icon">
                                         </div>
@@ -208,7 +214,7 @@
                                             <img src="assets/images/ai-background-remover.png" loading="lazy" alt="AI Remove Background" class="project-card-image">
                                             <div class="project-card-content-wrap">
                                                 <h3 class="project-card-heading">AI Background Remover</h3>
-                                                <p class="project-card-description md-paragraph">Advanced AI-powered tool for removing backgrounds from both images and videos, delivering professional-quality results in seconds.</p>
+                                                <p class="project-card-description md-paragraph" data-i18n="project.ai_background_remover">Advanced AI-powered tool for removing backgrounds from both images and videos, delivering professional-quality results in seconds.</p>
                                             </div>
                                             <img src="assets/images/arrow.svg" loading="lazy" alt="Arrow Icon" class="project-card-icon">
                                         </div>
@@ -220,7 +226,7 @@
                                             <img src="assets/images/ai-content-generator.png" loading="lazy" alt="AI Content Generator" class="project-card-image">
                                             <div class="project-card-content-wrap">
                                                 <h3 class="project-card-heading">AI Content Generator</h3>
-                                                <p class="project-card-description md-paragraph">Text-to-media AI tool that generates high-quality images and videos from natural language descriptions.</p>
+                                                <p class="project-card-description md-paragraph" data-i18n="project.ai_content_generator">Text-to-media AI tool that generates high-quality images and videos from natural language descriptions.</p>
                                             </div>
                                             <img src="assets/images/arrow.svg" loading="lazy" alt="Arrow Icon" class="project-card-icon">
                                         </div>
@@ -232,7 +238,10 @@
 
                     <section class="section skills-section" id="stack">
                         <div class="section-heading-wrap">
-                            <h2 class="section-title">LOVEABLE <br/><span class="section-subtitle">TECH STACK</span><br></h2>
+                            <h2 class="section-title">
+                                <span data-i18n="sections.stack.title">LOVEABLE</span>
+                                <br/><span class="section-subtitle" data-i18n="sections.stack.subtitle">TECH STACK</span>
+                            </h2>
                         </div>
                         <div class="collection-list-wrapper w-dyn-list">
                             <div role="list" class="tools-collection-list w-dyn-items">
@@ -242,7 +251,7 @@
                                             <img src="assets/images/nextjs.png" loading="lazy" alt="NextJS Logo" class="tool-card-image">
                                             <div class="tool-card-content-wrap">
                                                 <h6 class="tool-card-heading">NextJS</h6>
-                                                <p class="tool-card-description md-paragraph">React Framework</p>
+                                                <p class="tool-card-description md-paragraph" data-i18n="stack.nextjs">React Framework</p>
                                             </div>
                                         </div>
                                     </a>
@@ -253,7 +262,7 @@
                                             <img src="assets/images/adonisjs.png" loading="lazy" alt="AdonisJS Logo" class="tool-card-image">
                                             <div class="tool-card-content-wrap">
                                                 <h6 class="tool-card-heading">AdonisJS</h6>
-                                                <p class="tool-card-description md-paragraph">Node.js Framework</p>
+                                                <p class="tool-card-description md-paragraph" data-i18n="stack.adonisjs">Node.js Framework</p>
                                             </div>
                                         </div>
                                     </a>
@@ -264,7 +273,7 @@
                                             <img src="assets/images/redis.png" loading="lazy" alt="Redis Logo" class="tool-card-image">
                                             <div class="tool-card-content-wrap">
                                                 <h6 class="tool-card-heading">Redis</h6>
-                                                <p class="tool-card-description md-paragraph">In-Memory Database</p>
+                                                <p class="tool-card-description md-paragraph" data-i18n="stack.redis">In-Memory Database</p>
                                             </div>
                                         </div>
                                     </a>
@@ -275,7 +284,7 @@
                                             <img src="assets/images/docker.png" loading="lazy" alt="Docker Logo" class="tool-card-image">
                                             <div class="tool-card-content-wrap">
                                                 <h6 class="tool-card-heading">Docker</h6>
-                                                <p class="tool-card-description md-paragraph">Container Platform</p>
+                                                <p class="tool-card-description md-paragraph" data-i18n="stack.docker">Container Platform</p>
                                             </div>
                                         </div>
                                     </a>
@@ -286,7 +295,7 @@
                                             <img src="assets/images/mongodb.png" loading="lazy" alt="MongoDB Logo" class="tool-card-image">
                                             <div class="tool-card-content-wrap">
                                                 <h6 class="tool-card-heading">MongoDB</h6>
-                                                <p class="tool-card-description md-paragraph">NoSQL Database</p>
+                                                <p class="tool-card-description md-paragraph" data-i18n="stack.mongodb">NoSQL Database</p>
                                             </div>
                                         </div>
                                     </a>
@@ -297,7 +306,7 @@
                                             <img src="assets/images/aws.png" loading="lazy" alt="AWS Logo" class="tool-card-image">
                                             <div class="tool-card-content-wrap">
                                                 <h6 class="tool-card-heading">AWS</h6>
-                                                <p class="tool-card-description md-paragraph">Cloud Platform</p>
+                                                <p class="tool-card-description md-paragraph" data-i18n="stack.aws">Cloud Platform</p>
                                             </div>
                                         </div>
                                     </a>
@@ -308,7 +317,10 @@
 
                     <section class="section blog-section" id="thoughts">
                         <div class="section-heading-wrap">
-                            <h2 class="section-title">INSIGHTS & <br/><span class="section-subtitle">PERSEPCTIVES</span><br></h2>
+                            <h2 class="section-title">
+                                <span data-i18n="sections.thoughts.title">INSIGHTS &</span>
+                                <br/><span class="section-subtitle" data-i18n="sections.thoughts.subtitle">PERSPECTIVES</span>
+                            </h2>
                         </div>
                         <div class="collection-list-wrapper w-dyn-list">
                             <div role="list" class="blog-collection-list w-dyn-items">
@@ -316,9 +328,9 @@
                                     <a href="#" class="blog-post-card-link w-inline-block">
                                         <div class="blog-post-card">
                                             <div class="blog-post-card-content-wrap">
-                                                <h3 class="blog-post-card-heading">Building Global Companies from Vietnam</h3>
-                                                <p class="blog-post-card-summary md-paragraph">Insights on scaling technology companies internationally and the opportunities for Vietnamese entrepreneurs in the global market. Exploring how local startups can leverage Vietnam's unique advantages while overcoming challenges to compete on the world stage.</p>
-                                                <p class="blog-post-card-date md-paragraph">March 2025</p>
+                                                <h3 class="blog-post-card-heading" data-i18n="blog.building_global_companies.heading">Building Global Companies from Vietnam</h3>
+                                                <p class="blog-post-card-summary md-paragraph" data-i18n="blog.building_global_companies.summary">Insights on scaling technology companies internationally and the opportunities for Vietnamese entrepreneurs in the global market. Exploring how local startups can leverage Vietnam's unique advantages while overcoming challenges to compete on the world stage.</p>
+                                                <p class="blog-post-card-date md-paragraph" data-i18n="blog.building_global_companies.date">March 2025</p>
                                             </div>
                                             <img src="assets/images/arrow.svg" loading="lazy" alt="Arrow Icon" class="blog-post-card-icon">
                                         </div>
@@ -328,9 +340,9 @@
                                     <a href="#" class="blog-post-card-link w-inline-block">
                                         <div class="blog-post-card">
                                             <div class="blog-post-card-content-wrap">
-                                                <h3 class="blog-post-card-heading">The Future of AI in Content Creation</h3>
-                                                <p class="blog-post-card-summary md-paragraph">Exploring how AI is revolutionizing video and image processing through automated editing and style transfer, empowering creators in new ways.</p>
-                                                <p class="blog-post-card-date md-paragraph">February 2025</p>
+                                                <h3 class="blog-post-card-heading" data-i18n="blog.future_of_ai.heading">The Future of AI in Content Creation</h3>
+                                                <p class="blog-post-card-summary md-paragraph" data-i18n="blog.future_of_ai.summary">Exploring how AI is revolutionizing video and image processing through automated editing and style transfer, empowering creators in new ways.</p>
+                                                <p class="blog-post-card-date md-paragraph" data-i18n="blog.future_of_ai.date">February 2025</p>
                                             </div>
                                             <img src="assets/images/arrow.svg" loading="lazy" alt="Arrow Icon" class="blog-post-card-icon">
                                         </div>
@@ -340,9 +352,9 @@
                                     <a href="#" class="blog-post-card-link w-inline-block">
                                         <div class="blog-post-card">
                                             <div class="blog-post-card-content-wrap">
-                                                <h3 class="blog-post-card-heading">From Engineer to Entrepreneur</h3>
-                                                <p class="blog-post-card-summary md-paragraph">My journey transitioning from software engineer to startup founder, sharing key insights on technical leadership and scaling early-stage companies. Reflecting on the challenges and triumphs along the way.</p>
-                                                <p class="blog-post-card-date md-paragraph">January 2025</p>
+                                                <h3 class="blog-post-card-heading" data-i18n="blog.from_engineer_to_entrepreneur.heading">From Engineer to Entrepreneur</h3>
+                                                <p class="blog-post-card-summary md-paragraph" data-i18n="blog.from_engineer_to_entrepreneur.summary">My journey transitioning from software engineer to startup founder, sharing key insights on technical leadership and scaling early-stage companies. Reflecting on the challenges and triumphs along the way.</p>
+                                                <p class="blog-post-card-date md-paragraph" data-i18n="blog.from_engineer_to_entrepreneur.date">January 2025</p>
                                             </div>
                                             <img src="assets/images/arrow.svg" loading="lazy" alt="Arrow Icon" class="blog-post-card-icon">
                                         </div>
@@ -358,5 +370,7 @@
 
     <script type="module" src="/src/js/main.js"></script>
     <script type="module" src="/src/js/animations.js"></script>
+    <script type="module" src="/src/i18n/index.js"></script>
+    <script type="module" src="/src/js/languageSwitcher.js"></script>
 </body>
 </html>

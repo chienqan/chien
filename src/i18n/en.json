@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "home": "Home",
+    "journey": "Journey",
+    "projects": "Projects",
+    "stack": "Stack",
+    "thoughts": "Thoughts"
+  },
+  "profile": {
+    "name": "Chien Nguyen",
+    "bio": "\"Pioneering digital futures\"",
+    "getInTouch": "Get In Touch"
+  },
+  "hero": {
+    "title": "STARTUP",
+    "subtitle": "FOUNDER",
+    "intro": "From Software Engineer to Entrepreneur, I'm driven by a passion for creating solutions and uplifting others.",
+    "bytek": "On October 28, 2022, I founded Bytek, LLC—a company dedicated to developing innovative tech products.",
+    "bytekUS": "On March 12, 2025, I established Bytek, LLC in Delaware, United States, marking a significant milestone in my entrepreneurial journey.",
+    "deltora": "On March 20, 2025, I founded Deltora, a pioneering AI-powered video and image processing company. Through cutting-edge AI technology, we are revolutionizing the future of content creation.",
+    "stats": {
+      "companies": "COMPANIES\nFOUNDED",
+      "years": "YEARS IN\nBUSINESS",
+      "products": "PRODUCTS\nLAUNCHED"
+    }
+  },
+  "sections": {
+    "journey": {
+      "title": "FOUNDER'S",
+      "subtitle": "JOURNEY"
+    },
+    "projects": {
+      "title": "PROJECTS",
+      "subtitle": "SPOTLIGHT"
+    },
+    "stack": {
+      "title": "LOVEABLE",
+      "subtitle": "TECH STACK"
+    },
+    "thoughts": {
+      "title": "INSIGHTS &",
+      "subtitle": "PERSPECTIVES"
+    }
+  },
+  "experience": {
+    "deltora": {
+      "heading": "Deltora, LLC",
+      "description": "Founded and leading a company focused on AI-powered video and image processing solutions, developing cutting-edge technology for content creators and businesses.",
+      "date": "March 2025 - Present"
+    },
+    "bytek": {
+      "heading": "Bytek, LLC",
+      "description": "Founded and led a technology company developing innovative products that add value to society and drive national progress.",
+      "date": "October 2022 - Present"
+    },
+    "rmit": {
+      "heading": "RMIT University",
+      "description": "Built automation solutions for social networks, television, and film channels while pursuing a Bachelor's degree in Information Technology.",
+      "date": "2018 - 2022"
+    }
+  },
+  "project": {
+    "flowdraw": "A modern diagram editor with drag-and-drop interface and real-time collaboration features for creating professional flowcharts and diagrams.",
+    "ai_background_remover": "Advanced AI-powered tool for removing backgrounds from both images and videos, delivering professional-quality results in seconds.",
+    "ai_content_generator": "Text-to-media AI tool that generates high-quality images and videos from natural language descriptions."
+  },
+  "stack": {
+    "nextjs": "React Framework",
+    "adonisjs": "Node.js Framework",
+    "redis": "In-Memory Database",
+    "docker": "Container Platform",
+    "mongodb": "NoSQL Database",
+    "aws": "Cloud Platform"
+  },
+  "blog": {
+    "building_global_companies": {
+      "heading": "Building Global Companies from Vietnam",
+      "summary": "Insights on scaling technology companies internationally and the opportunities for Vietnamese entrepreneurs in the global market. Exploring how local startups can leverage Vietnam's unique advantages while overcoming challenges to compete on the world stage.",
+      "date": "March 2025"
+    },
+    "future_of_ai": {
+      "heading": "The Future of AI in Content Creation",
+      "summary": "Exploring how AI is revolutionizing video and image processing through automated editing and style transfer, empowering creators in new ways.",
+      "date": "February 2025"
+    },
+    "from_engineer_to_entrepreneur": {
+      "heading": "From Engineer to Entrepreneur",
+      "summary": "My journey transitioning from software engineer to startup founder, sharing key insights on technical leadership and scaling early-stage companies. Reflecting on the challenges and triumphs along the way.",
+      "date": "January 2025"
+    }
+  },
+  "contact": {
+    "location": "Ho Chi Minh, Viet Nam",
+    "email": "hello@bytek.org"
+  }
+} 
