@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Personal portfolio website with smooth scrolling",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "portfolio",
+    "smooth-scroll",
+    "vite"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "locomotive-scroll": "^4.1.4",
+    "motion": "^12.5.0",
+    "smooth-scroll": "^16.1.3"
+  }
+}
