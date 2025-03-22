@@ -1,4 +1,6 @@
 import { defineConfig } from 'vite';
+import { resolve } from 'path';
+import fs from 'fs/promises';
 
 export default defineConfig({
   root: '.',
@@ -7,9 +9,11 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+      },
       output: {
         manualChunks: {
-          'vendor': ['jquery'],
           'smooth-scroll': ['./src/js/main.js']
         }
       }
@@ -26,7 +30,18 @@ export default defineConfig({
     port: 9000,
     open: true
   },
-  optimizeDeps: {
-    include: ['jquery']
-  }
+  plugins: [
+    {
+      name: 'copy-og-image',
+      enforce: 'post',
+      async generateBundle() {
+        const imageContent = await fs.readFile('assets/images/og-cover.png');
+        this.emitFile({
+          type: 'asset',
+          fileName: 'assets/og-cover.png',
+          source: imageContent
+        });
+      }
+    }
+  ]
 }); 
