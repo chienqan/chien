@@ -3135,6 +3135,18 @@ blockquote {
     margin-bottom: 24px;
   }
 
+  .profile-bio-container {
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-skills-card-button-wrap {
+    margin-top: 0;
+  }
+
+  .contact-info {
+    display: none;
+  }
+
   .hero-heading {
     text-align: center;
   }
@@ -3268,10 +3280,6 @@ blockquote {
     padding-right: 20px;
   }
 
-  .profile-image {
-    max-height: 240px;
-  }
-
   .profile-name {
     margin-bottom: 16px;
     font-size: 28px;
@@ -3358,6 +3366,14 @@ blockquote {
     margin-bottom: 70px;
   }
 
+  .skills-section .section-title {
+    font-size: 56px;
+  }
+
+  .blog-section .section-title {
+    font-size: 48px;
+  }
+
   .tool-post-heading-wrap {
     margin-bottom: 20px;
   }
@@ -3399,13 +3415,8 @@ blockquote {
 }
 
 @media screen and (max-width: 479px) {
-  h1 {
-    font-size: 48px;
-  }
-
   .profile-image {
     width: 100%;
-    max-height: 240px;
   }
 
   .profile-name {
