@@ -2330,7 +2330,6 @@ blockquote {
 .hero-numbers-wrap {
   grid-column-gap: 40px;
   grid-row-gap: 40px;
-  margin-bottom: 60px;
   display: flex;
 }
 
@@ -2913,7 +2912,6 @@ blockquote {
 
 .hero-heading-wrap .hero-heading {
   letter-spacing: -.04em;
-  font-size: 110px;
 }
 
 .hero-heading-wrap .hero-heading-span {
@@ -3250,7 +3248,7 @@ blockquote {
   }
 
   .paragraph {
-    text-align: center;
+    text-align: left;
   }
 
   .section {
@@ -3337,11 +3335,11 @@ blockquote {
 
 @media screen and (max-width: 767px) {
   h1 {
-    font-size: 52px;
+    font-size: 69px;
   }
 
   h2 {
-    font-size: 42px;
+    font-size: 60px;
   }
 
   h3 {
