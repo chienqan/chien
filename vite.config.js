@@ -35,11 +35,17 @@ export default defineConfig({
       name: 'copy-og-image',
       enforce: 'post',
       async generateBundle() {
-        const imageContent = await fs.readFile('assets/images/og-cover.png');
+        const imageCoverContent = await fs.readFile('assets/images/og-cover.png');
+        const imageSquareContent = await fs.readFile('assets/images/og-square.png');
         this.emitFile({
           type: 'asset',
           fileName: 'assets/og-cover.png',
-          source: imageContent
+          source: imageCoverContent
+        });
+        this.emitFile({
+          type: 'asset',
+          fileName: 'assets/og-square.png',
+          source: imageSquareContent
         });
       }
     }
