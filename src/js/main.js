@@ -63,34 +63,3 @@ document.addEventListener('DOMContentLoaded', () => {
         header: '.navbar'
     });
 });
-
-// Update clock with GMT+7 time
-function updateClock() {
-    // Get current UTC time
-    const now = new Date();
-    const utcTime = new Date(now.getTime() + now.getTimezoneOffset() * 60000);
-    
-    // Add 7 hours to get GMT+7
-    const gmtPlus7 = new Date(utcTime.getTime() + (7 * 60 * 60 * 1000));
-    
-    // Get hours and minutes
-    const hours = gmtPlus7.getHours().toString().padStart(2, '0');
-    const minutes = gmtPlus7.getMinutes().toString().padStart(2, '0');
-    const timeString = `${hours}:${minutes} (UTC +07:00)`;
-    
-    const timeElement = document.getElementById('current-time');
-    if (timeElement) {
-        timeElement.textContent = timeString;
-    }
-}
-
-// Set initial time to 13:00
-document.addEventListener('DOMContentLoaded', () => {
-    const timeElement = document.getElementById('current-time');
-    
-    // Start updating the clock after 1 second
-    setTimeout(() => {
-        updateClock();
-        setInterval(updateClock, 60000);
-    }, 1000);
-}); 
