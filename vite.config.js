@@ -8,6 +8,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
+    assetsInlineLimit: 100 * 1024,
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
