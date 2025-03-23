@@ -37,6 +37,7 @@ export default defineConfig({
       async generateBundle() {
         const imageCoverContent = await fs.readFile('assets/images/og-cover.png');
         const imageSquareContent = await fs.readFile('assets/images/og-square.png');
+        const imageSquareMiniContent = await fs.readFile('assets/images/og-square-mini.png');
         this.emitFile({
           type: 'asset',
           fileName: 'assets/og-cover.png',
@@ -46,6 +47,11 @@ export default defineConfig({
           type: 'asset',
           fileName: 'assets/og-square.png',
           source: imageSquareContent
+        });
+        this.emitFile({
+          type: 'asset',
+          fileName: 'assets/og-square-mini.png',
+          source: imageSquareMiniContent
         });
       }
     }
