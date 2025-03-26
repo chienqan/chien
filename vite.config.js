@@ -36,23 +36,17 @@ export default defineConfig({
       name: 'copy-og-image',
       enforce: 'post',
       async generateBundle() {
-        const imageBannerContent = await fs.readFile('assets/images/og-banner.png');
-        const imagePreviewContent = await fs.readFile('assets/images/og-preview.png');
-        const imageThumbContent = await fs.readFile('assets/images/og-thumb.png');
+        const imageCoverContent = await fs.readFile('assets/images/og-cover.png');
+        const imageThumbnailContent = await fs.readFile('assets/images/og-thumbnail.png');
         this.emitFile({
           type: 'asset',
-          fileName: 'assets/og-banner.png',
-          source: imageBannerContent
+          fileName: 'assets/og-cover.png',
+          source: imageCoverContent
         });
         this.emitFile({
           type: 'asset',
-          fileName: 'assets/og-preview.png',
-          source: imagePreviewContent
-        });
-        this.emitFile({
-          type: 'asset',
-          fileName: 'assets/og-thumb.png',
-          source: imageThumbContent
+          fileName: 'assets/og-thumbnail.png',
+          source: imageThumbnailContent
         });
       }
     }
